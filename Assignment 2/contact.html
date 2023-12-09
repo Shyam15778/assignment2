@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <meta name="keywords" conent="Feedback Form"/>
+    <title>Sardar Vallabhbhai Patel</title>
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="media.html">Media</a>
+                    <ul>
+                        <li><a href="gallery.html">Gallery</li></a>
+                        <li><a href="videos.html">Videos</li></a>
+                    </ul>
+                </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <main>
+            <h2>Feedback Form</h2>
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend><br>
+                    <label for name="name">First Name:</label>
+                    <input type="text" id="name1" name="name1" placeholder="Enter First Name" minlength="5" maxlength="20" required><br><br>
+    
+                    <label for name="name">Last Name:</label>
+                    <input type="text" id="name2" name="name2" placeholder="Enter Last Name"><br><br>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter E-mail" pattern="a-z0-9._%+-]+@[a-z0-9.-]+\.[a-
+                    z]{2,}$"><br><br>
+                    
+                    <label for="phonenumber">Contact Number:</label>
+                    <input type="tel" id="phonenumber" name="phonenumber" placeholder="Enter Contact Number"><br><br>
+    
+                    <label for="dateofbirth">Date of Birth:</label>
+                    <input type="date" id="dateofbirth" name="dateofbirth"><br><br>
+    
+                    <label for="comment">Comment</label><br>
+                    <textarea id="comment" name="comment" row="50" cols="20" required></textarea><br><br>
+    
+                    <label for="experience">Rate your Experience: </label>
+                    <select name="experience" id="experience">
+                        <option value="bad">Bad</option>
+                        <option value="average">Average</option>
+                        <option value="good">Good</option>
+                        <option value="excellent" selected>Excellent</option>
+                    </select>
+                </fieldset><br>
+    
+                <input type="checkbox" id="human" name="human" required>
+                <label>I am human.</label><br>
+                <input type="submit" value="Submit" id="submit">
+                
+            </form>
+        </main>
+    
+        <aside>
+            <h2>Additional Information</h2>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Vallabhbhai_Patel" target="_blank">Wikipedia</a></li>
+                <li><a href="https://www.britannica.com/biography/Vallabhbhai-Patel" target="_blank"> Britannica</a></li>
+                <li><a href="https://sardarpateltrust.org/the-memorial/sardar-library-archival-centre/" target="_blank"> Sardar Library</a></li>
+            </ul>
+        </aside>
+
+    </section>
+   
+    <footer><p>&copy; Shyamal Kakadia 2023</p></footer>
+</body>
+</html>

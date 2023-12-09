@@ -1,0 +1,43 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 0.5rem;
+  }
+
+table, th, td {
+    border:1px solid black;
+  }
+  
+tr:nth-child(even) {
+    background-color: #dddddd;}
+
+.mainimg{ 
+    
+        border: 5px solid black;
+        width: 80%;
+        height: 90%; 
+    }
+    
+#img1{
+        height:100%;
+        width:100%;
+}
+
+#img1{
+        float:left;
+        clip-path : polygon(0px 0px, 45.55% 23px, 63.64% 91.19%, 12.82% 94.37%);
+        shape-outside: polygon(0px 0px, 50.1% 17px, 63.53% 84.8%, 68.06% 104.05%, 1.33% 103.08%);
+        shape-margin: 10px;
+}
+
+q{ 
+    font-family: cursive; 
+    font-style: italic;  
+    font-size: larger; 
+}
